@@ -96,7 +96,21 @@
 }
 
 /* box-4 */
-
+.nav-language {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-language p {
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding-top: 15px;
+}
+svg {
+  padding-top: 15px;
+}
 /* box-5 */
 span {
   font-size: 0.75rem;
@@ -159,8 +173,18 @@ span {
 }
 .panel-option p {
   display: inline;
-  font-weight: 520;
+  font-size: 0.9rem;
   margin-left: 10px;
+}
+.panel-allMenu a,
+.panel-option a,
+.panel-deals a {
+  color: white;
+  text-decoration: none;
+}
+.panel-allMenu a:hover,
+.panel-option a:hover {
+  color: #8e9598;
 }
 .panel-option {
   width: 72%;
@@ -350,7 +374,7 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
 }
 .foot-panel1:hover {
   background-color: #485769;
@@ -358,23 +382,31 @@ span {
 .foot-panel2 {
   background-color: #232f3e;
   color: white;
-  height: 300px;
+  height: 350px;
   display: flex;
   justify-content: space-evenly;
 }
 ul {
   margin-top: 50px;
 }
+ul p {
+  font-weight: 600;
+}
 ul a {
   display: block;
   margin-top: 10px;
   font-size: 0.85rem;
   color: #dddddd;
+  text-decoration: none;
 }
+ul a:hover {
+  text-decoration: underline;
+}
+
 .foot-panel3 {
   background-color: #232f3e;
   border-top: 2px solid #3a4553;
-  height: 68px;
+  height: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -389,11 +421,13 @@ ul a {
 .panel-text {
   height: 30px;
   font-size: 0.75rem;
-  color: #cccccc;
   display: flex;
 }
-.english {
+.english a {
+  height: 30px;
   width: 100px;
+  color: #cccccc;
+  text-decoration: none;
   display: flex;
   border: 1px solid white;
   border-radius: 4px;
@@ -401,8 +435,11 @@ ul a {
   justify-content: space-evenly;
   align-items: center;
 }
-.usd {
+.usd a {
+  height: 30px;
   width: 140px;
+  color: #cccccc;
+  text-decoration: none;
   display: flex;
   border: 1px solid white;
   border-radius: 4px;
@@ -410,8 +447,11 @@ ul a {
   justify-content: space-evenly;
   align-items: center;
 }
-.usa {
+.usa a {
+  height: 30px;
   width: 120px;
+  color: #cccccc;
+  text-decoration: none;
   display: flex;
   border: 1px solid white;
   border-radius: 4px;
